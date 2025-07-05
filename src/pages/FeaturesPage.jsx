@@ -14,8 +14,8 @@ const FeaturesPage = () => {
                     <button className='px-12 md:px-10 py-3 lg:px-13 lg:py-5 rounded-full md:text-md lg:text-xl xl:text-2xl bg-[#24262B]'>Access wallet</button>
                 </div>
             </div>
-            <div className='h-full w-full lg:min-h-screen lg:w-[50vw] rounded-4xl text-white flex flex-col gap-10 md:gap-10 lg:gap-20 xl:gap-46 2xl:gap-52 text-center items-center px-4 md:px-10 py-10 lg:py-20 xl:py-24 bg-[#14161B]'>
-                <div className='flex gap-4 md:gap-6 xl:gap-8 text-sm md:text-md xl:text-lg md:tracking-wide'>
+            <div className='h-full w-full lg:min-h-screen lg:w-[50vw] rounded-4xl text-white flex flex-col gap-10 md:gap-10 lg:gap-20 xl:gap-46 2xl:gap-52 text-center items-center px-4 md:px-10 py-10 lg:py-20 xl:py-28 bg-[#14161B]'>
+                <div className='flex gap-4 md:gap-6 xl:gap-8 text-xs md:text-md xl:text-lg md:tracking-wide'>
                     <span className='uppercase'>privacy policy</span>
                     <span className='uppercase'>cookies</span>
                     <span className='uppercase'>sitemap</span>

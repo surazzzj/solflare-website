@@ -29,7 +29,7 @@ const Slider = () => {
     ]
 
     return (
-        <div className='min-h-screen xl:min-h-screen relative py-40 lg:py-10 flex overflow-hidden gap-30 w-full bg-black'>
+        <div className='min-h-screen xl:min-h-screen relative py-54 md:py-54 lg:py-10 flex overflow-hidden gap-30 w-full bg-black'>
 
             <div className="hidden 2xl:inline-block 2xl:left-40 absolute top-0 left-60 h-full md:h-screen w-xl bg-gradient-to-r from-black to-transparent z-8 pointer-events-none" />
             <div className='h-screen w-full flex flex-col lg:flex-row gap-2 justify-center items-center'>
