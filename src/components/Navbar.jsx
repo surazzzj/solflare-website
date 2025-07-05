@@ -27,9 +27,9 @@ const Navbar = () => {
 
       <div className='flex items-center gap-12 text-white'>
         <img className='h-10 md:h-14 xl:16 2xl:h-16' src={assets.app_icon} alt="" />
-        <a className='hidden md:inline-block md:text-xl 2xl:text-2xl font-medium' href="#">Product</a>
-        <a className='hidden md:inline-block md:text-xl 2xl:text-2xl font-medium' href="#">About</a>
-        <a className='hidden md:inline-block md:text-xl 2xl:text-2xl font-medium' href="#">Careers</a>
+        <a className='hidden md:inline-block md:text-xl 2xl:text-2xl font-medium' href="#product">Product</a>
+        <a className='hidden md:inline-block md:text-xl 2xl:text-2xl font-medium' href="#about">About</a>
+        <a className='hidden md:inline-block md:text-xl 2xl:text-2xl font-medium' href="#slider">Careers</a>
       </div>
 
       <div className='flex gap-2'>
@@ -57,9 +57,27 @@ const Navbar = () => {
         </div>
         {menuOpen ?
           <div className='md:h-[93%] min-h-screen top-14 w-full flex flex-col px-8 py-18 gap-4 bg-black text-white absolute left-0 z-20 md:hidden'>
-            <a className='text-3xl font-semibold' href="">Product</a>
-            <a className='text-3xl font-semibold' href="">About</a>
-            <a className='text-3xl font-semibold' href="">Careers</a>
+            <a
+              href="#product"
+              onClick={() => setMenuOpen(false)}
+              className='text-3xl font-semibold'
+            >
+              Product
+            </a>
+            <a
+              href="#about"
+              onClick={() => setMenuOpen(false)}
+              className='text-3xl font-semibold'
+            >
+              About
+            </a>
+            <a
+              href="#careers"
+              onClick={() => setMenuOpen(false)}
+              className='text-3xl font-semibold'
+            >
+              Careers
+            </a>
           </div> : ''
         }
 
