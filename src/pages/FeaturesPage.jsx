@@ -5,7 +5,7 @@ import { assets } from '../assets/assets'
 const FeaturesPage = () => {
     return (
         <div id='careers' className='min-h-screen mt-3 w-full flex lg:flex-row flex-col gap-3 xl:gap-4'>
-            <div className='h-full w-full lg:min-h-screen gap-15 md:gap-18 lg:gap-30 xl:gap-26 lg:w-[50vw] rounded-4xl text-white flex flex-col justify-evenly items-center px-4 md:px-10 py-10 md:py-20 text-center bg-[#14161B]'>
+            <div className='h-full w-full lg:min-h-screen gap-15 md:gap-18 lg:gap-30 xl:gap-24 2xl:gap-32 lg:w-[50vw] rounded-4xl text-white flex flex-col justify-evenly items-center px-4 md:px-10 py-10 md:py-20 2xl:py-24 text-center bg-[#14161B]'>
                 <p className='text-xs md:text-lg xl:text-xl uppercase tracking-widest'>Enter the stronghold</p>
                 <h1 className='text-3xl md:text-4xl lg:text-5xl xl:text-7xl leading-7 md:leading-none xl:tracking-tight font-bold w-full lg:w-full xl:w-3/4'>Solflare: the most powerful wallet on Solana</h1>
                 <img className='py-1 h-36 lg:h[40vh] xl:h-[50vh]  md:w-80 xl:py-18' src={assets.app_icon} alt="" />
