@@ -5,4 +5,4 @@ The official website (https://www.solflare.com) showcases a high-end, award-wort
 and a fluid user journey that mirrors the speed and elegance of Solana itself.
 
 
-live - https://updatedsolflarewebsite.netlify.app/
+Live demo 🚀 - https://updatedsolflarewebsite.netlify.app/
