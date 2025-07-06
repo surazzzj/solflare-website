@@ -1,8 +1,8 @@
-# React + Vite
+# Solflare
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Solflare is a beautifully crafted, modern web experience designed to introduce and onboard users into the Solana ecosystem.
+The official website (https://www.solflare.com) showcases a high-end, award-worthy design with stunning animations, dynamic visuals,
+and a fluid user journey that mirrors the speed and elegance of Solana itself.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+live - https://updatedsolflarewebsite.netlify.app/
